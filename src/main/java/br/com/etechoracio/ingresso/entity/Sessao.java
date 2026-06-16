@@ -25,7 +25,7 @@ public class Sessao {
     @Column(name = "TX_SALA")
     private String sala;
     @ManyToOne
-    @JoinColumn(name = "ID_FILME")
+    @JoinColumn(name = "FK_FILME")
     private Filme filme;
 
 }
