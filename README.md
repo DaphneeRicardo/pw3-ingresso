@@ -1,5 +1,5 @@
 # pw3-ingresso
-Daphne e Ricardo
+Ricardo
 
 CREATE TABLE TBL_SESSAO(
   ID_SESSAO BIGINT PRIMARY KEY IDENTITY,
