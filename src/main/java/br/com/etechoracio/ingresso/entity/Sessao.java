@@ -28,4 +28,5 @@ public class Sessao {
     @JoinColumn(name = "FK_FILME")
     private Filme filme;
 
+
 }

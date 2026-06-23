@@ -29,4 +29,5 @@ public class SessaoController {
 
     @GetMapping("/filmeById/{id}")
     public List<SessaoResponseDTO> findFilmeById(Long id) {return sessaoService.findFilmeById(id);}
+
 }

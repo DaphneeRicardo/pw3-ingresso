@@ -11,4 +11,5 @@ import java.util.List;
 public interface SessaoRepository extends JpaRepository<Sessao, Long> {
 
     List<Sessao>findFilmeById(Long id);
+
 }
